@@ -1,0 +1,70 @@
+README file for AdoptAPixel3km2020_100m_aerialImageryLabels.csv\
+
+TITLE: AdoptAPixel3km2020_GO_LandCover.csv\
+
+DESCRIPTION: This dataset contains the results of ground photos and land cover labels obtained using the citizen science GLOBE Observer mobile app (observer.globe.gov/) as part of the Adopt-A-Pixel 3km project. The purpose of this project was to contribute to land cover scientific research by interpreting aerial imagery and labeling 36 1000m2 square plots within a 3km area of interest. This is integrated with aerial image interpretation performed using the Collect.Earth.Online platform (https://collect.earth) based on the MAXAR satellite imagery 2020 provided through Mapbox (https://www.mapbox.com/maps/satellite). Additionally, within a 3km Area of Interest, citizen scientists also documented Mosquito Habitat using the GLOBE Observer mobile app Mosquito Habitat Mapper tool.\
+
+TAGS (ISO): biota, environment, society, structure, trees, inlandWaters\
+
+TAGS (PLACE): United States\
+
+DATA_ATTRIBUTION: SEES2020 Mosquito Mappers\
+
+DATA_LICENSE: CC BY 4.0\
+
+TEMPORAL_EXTENT: 2020-06-01 to 2020-07-15\
+
+LAST_UPDATE: 2020-07-15\
+
+PUBLISHING_ORGANIZATION: Institute for Global Environmental Strategies, \
+
+CONTACT: Dr. Russanne Low, IGES, russanne_low@strategies.org\
+
+DATA_LIMITATIONS: Data is provided 'as-is'.Please be advised that although these data have been processed successfully on a computer system no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. IGES shall not be held liable for improper or incorrect use of the data.
+
+UPDATE_FREQUENCY: None planned\
+
+LANGUAGE: English\
+
+COUNTRY: United States\
+
+SPATIAL_REFERENCE: EPSG:4326 WGS84\
+
+SPATIAL_DATA_REPRESENTATION: Point\
+
+ENTITY_AND_ATTRIBUTE_INFORMATION:\
+OBJECTID | unique, sequential value | integer \
+landcoversLandCoverId | unique sequential value from GLOBE database | integer \	
+landcoversDataSource  | source of land cover data = GLOBE Observer | text \	
+landcoversMeasuredAt	| Date and time in UTC of measurement | date\
+siteName | MGRS value for this observation | text \	
+landcoversMeasurementLatitude	| y value of measurement location in WGS84 | float\
+landcoversMeasurementLongitude	| x value of measurement location in WGS84 | float\
+elevation	| z value of measurement location from GLOBE database | float\
+landcoversMeasurementElevation	| z value of measurement location using Google service | float\
+landcoversMucCode	| Modified UNESCO Code (MUC) used by GLOBE Program as label for land cover classification. See GLOBE Program website for more details. | text \
+landcoversMucDetails	| Modified UNESCO Code (MUC) details used by GLOBE Program as label for land cover classification. See GLOBE Program website for more details. | text \
+landcoversMucDescription	| Modified UNESCO Code (MUC) used by GLOBE Program as label for land cover classification. See GLOBE Program website for more details. | text \
+landcoversDownwardExtraData | field that stores information about the directional photo including source and compass horizon. E.g. (source: app, (compassData.horizon: -57.73620057815666))| text\
+landcoversDownwardPhotoUrl	| field that stores the URL to the directional photo.| text \
+landcoversDryGround	| value of 'TRUE' or 'FALSE' to the protocol question to whether there is dry ground in the area. | text\
+landcoversEastClassifications | field of values that store the GLOBE Program MUC along with an estimated percentage in this direction | text \	
+landcoversEastExtraData	field that stores information about the directional photo including source and compass horizon. E.g. (source: app, (compassData.horizon: -57.73620057815666))| text\
+landcoversEastPhotoUrl	| field that stores the URL to the directional photo.| Text \
+landcoversFieldNotes	| field that stores free form text submitted by GLOBE Observer to provide additional information. | text\
+landcoversLeavesOnTrees	| value of 'TRUE' or 'FALSE' to the protocol question to whether there are leaves on the trees in the area.| text\
+landcoversMuddy	| value of 'TRUE' or 'FALSE' to the protocol question to whether there is muddy ground in the area. | text\
+landcoversNorthClassifications | field of values that store the GLOBE Program MUC along with an estimated percentage in this direction | text\ 	
+landcoversNorthExtraData | field that stores information about the directional photo including source and compass horizon. E.g. (source: app, (compassData.horizon: -57.73620057815666))| text\	
+landcoversNorthPhotoUrl	| field that stores the URL to the directional photo.| Text \
+landcoversRainingSnowing | value of 'TRUE' or 'FALSE' to the protocol question to whether it is raining or snowing in the area.	
+landcoversSnowIce | value of 'TRUE' or 'FALSE' to the protocol question to whether there is snow or ice in the area.	
+landcoversSouthClassifications	| field of values that store the GLOBE Program MUC along with an estimated percentage in this direction | text \
+landcoversSouthExtraData | field that stores information about the directional photo including source and compass horizon. E.g. (source: app, (compassData.horizon: -57.73620057815666))| text\	
+landcoversSouthPhotoUrl	| field that stores the URL to the directional photo.| Text \
+landcoversStandingWater	| value of 'TRUE' or 'FALSE' to the protocol question to whether there is standing water in the area.| text
+landcoversUpwardExtraData	| field of values that contains additional information about this directional photo | text\
+landcoversUpwardPhotoUrl | field that stores the URL to the directional photo.| Text \	
+landcoversWestClassifications | field of values that store the GLOBE Program MUC along with an estimated percentage in this direction | text \
+landcoversWestExtraData	| field that stores information about the directional photo including source and compass horizon. E.g. (source: app, (compassData.horizon: -57.73620057815666))| text\
+landcoversWestPhotoUrl | field that stores the URL to the directional photo.| Text \

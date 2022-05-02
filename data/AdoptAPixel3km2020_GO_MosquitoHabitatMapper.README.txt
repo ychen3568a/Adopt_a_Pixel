@@ -1,0 +1,60 @@
+README file for AdoptAPixel3km2020_100m_aerialImageryLabels.csv\
+\
+TITLE: AdoptAPixel3km2020_GO_MosquitoHabitatMapper.csv\
+\
+DESCRIPTION: This dataset contains the results of mosquito habitat mapper data obtained using the citizen science GLOBE Observer mobile app (observer.globe.gov/) as part of the Adopt-A-Pixel 3km project. The purpose of this project was to contribute to land cover scientific research by interpreting aerial imagery and labeling 36 1000m2 square plots within a 3km area of interest. This is integrated with aerial image interpretation performed using the Collect.Earth.Online platform (https://collect.earth) based on the MAXAR satellite imagery 2020 provided through Mapbox (https://www.mapbox.com/maps/satellite). Additionally, within a 3km Area of Interest, citizen scientists also documented ground photos and land cover labels using the GLOBE Observer mobile app within the 3km AOI. \
+\
+TAGS (ISO): biota, environment, society, structure, trees, inlandWaters\
+\
+TAGS (PLACE): United States\
+\
+DATA_ATTRIBUTION: SEES2020 Mosquito Mappers\
+\
+DATA_LICENSE: CC BY 4.0\
+\
+TEMPORAL_EXTENT: 2020-06-01 to 2020-07-15\
+\
+LAST_UPDATE: 2020-07-15\
+\
+PUBLISHING_ORGANIZATION: Institute for Global Environmental Strategies, \
+\
+CONTACT: Dr. Russanne Low, IGES, russanne_low@strategies.org\
+\
+DATA_LIMITATIONS: Data is provided 'as-is'. 
+Please be advised that although these data have been processed successfully on a computer system no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. IGES shall not be held liable for improper or incorrect use of the data.
+\
+UPDATE_FREQUENCY: None planned\
+\
+LANGUAGE: English\
+\
+COUNTRY: United States\
+\
+SPATIAL_REFERENCE: EPSG:4326 WGS84\
+\
+SPATIAL_DATA_REPRESENTATION: Point\
+\
+ENTITY_AND_ATTRIBUTE_INFORMATION:\
+OBJECTID	
+mosquitohabitatmapperMosquitoHabitatMapperId	
+protocol	
+mosquitohabitatmapperDataSource	
+mosquitohabitatmapperMeasuredAt	
+siteName	
+elevation	
+mosquitohabitatmapperMeasurementLatitude	
+mosquitohabitatmapperMeasurementLongitude
+mosquitohabitatmapperAbdomenCloseupPhotoUrls	mosquitohabitatmapperBreedingGroundEliminated
+mosquitohabitatmapperComments	
+mosquitohabitatmapperExtraData	
+mosquitohabitatmapperGenus	
+mosquitohabitatmapperLarvaFullBodyPhotoUrls
+mosquitohabitatmapperLarvaeCount	
+mosquitohabitatmapperLastIdentifyStage	
+mosquitohabitatmapperMosquitoAdults	
+mosquitohabitatmapperMosquitoEggCount	
+mosquitohabitatmapperMosquitoEggs	
+mosquitohabitatmapperMosquitoPupae	
+mosquitohabitatmapperSpecies	
+mosquitohabitatmapperWaterSource	
+mosquitohabitatmapperWaterSourcePhotoUrls	
+mosquitohabitatmapperWaterSourceType

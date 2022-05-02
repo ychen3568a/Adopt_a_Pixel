@@ -1,0 +1,546 @@
+---
+title: "pixelTidy"
+author: "Yuting Chen"
+date: "2022/2/14"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+# Tidy first data set
+
+```{r}
+aerial <- read_csv("../data/AdoptAPixel3km2020_100m_aerialImageryLabels.csv")
+```
+
+```{r}
+# The values of variables are the same, but ceoFLAGGED is different
+aerial %>% 
+  select(SIZE_M, PLOTSHAPE, ceoFLAGGED, SAMPLE_POINTS) %>% 
+  unique()
+```
+```{r}
+# See the ceoFLAGGED data
+aerial %>% 
+  filter(ceoFLAGGED == TRUE)
+```
+
+
+```{r}
+# Delete some variables that have the same values in it.
+Aerial <- aerial %>% 
+  select(-SIZE_M, -PLOTSHAPE, -ceoFLAGGED, -SAMPLE_POINTS)
+View(Aerial)
+```
+
+```{r}
+#Aerial %>% 
+#  write_csv("../finalData/Aerial.csv")
+```
+
+```{r}
+ Aerial %>% 
+          pivot_longer(cols = 7:19,
+                       names_to = "feature",
+                       values_to = "percentage") %>% 
+          mutate(feature = str_replace(feature, "ceo", ""),
+                 percentage = round(percentage, 1)) %>% 
+          filter(AOI_NUM %in% c(2, 3, 5) & ceoPLOT_NUM %in% c(5, 7, 9)) %>% 
+          filter(percentage != 0) %>% 
+  group_by(feature) %>% 
+  mutate(sum_per = sum(percentage, na.rm = TRUE)) %>% 
+    mutate(final_per = round(percentage/sum_per*100, 2)) %>% 
+  ggplot(aes(x = feature, y = percentage, fill = as.factor(seesAOIplot))) +
+  geom_col(position = "fill") +
+  geom_text(aes(label=paste0(final_per,"%")),
+                     position=position_fill(vjust=0.5), colour="white", size =2)
+  #geom_text(aes(y = label_y, label = percentage), colour = "white")
+
+```
+%>% 
+  ggplot(aes(x = feature, y = percentage, fill = as.factor(seesAOIplot))) +
+  geom_col(position = "fill") +
+  geom_text(aes(label=paste0(percentage,"%")),
+                     position=position_fill(vjust=0.5), colour="white", size =2)
+  #geom_text(aes(y = label_y, label = percentage), colour = "white")
+
+
+### Tidy second data set
+
+```{r}
+pictures <- read_csv("../data/AdoptAPixel3km2020_GO_LandCover.csv")
+```
+
+```{r}
+pictures <- pictures %>% 
+  select(-landcoversDataSource, -landcoversMucCode, -landcoversMucDetails, -landcoversDownwardExtraData, -landcoversEastExtraData, -landcoversNorthExtraData, -landcoversSouthExtraData, -landcoversUpwardExtraData, -landcoversWestExtraData) 
+View(pictures)
+```
+
+```{r}
+#pictures %>% 
+#  write_csv("../finalData/pictures.csv")
+```
+
+
+
+```{r}
+AOI <- Aerial %>% 
+  select(AOI_NUM) %>% 
+  unique()
+```
+
+```{r}
+pictures %>% 
+  select(landcoversDataSource, landcoversMucCode, landcoversMucDetails, landcoversDownwardExtraData, landcoversEastExtraData, landcoversNorthExtraData, landcoversSouthExtraData, landcoversUpwardExtraData, landcoversWestExtraData) 
+```
+
+# Pie Chart
+
+```{r}
+library(ggthemes)
+Aerial %>% 
+  pivot_longer(cols = 7:19,
+               names_to = "feature",
+               values_to = "percentage") %>% 
+  mutate(feature = str_replace(feature, "ceo", ""),
+         percentage = round(percentage, 1)) %>% 
+  filter(AOI_NUM %in% c(2, 3) & ceoPLOT_NUM %in% c(7,9)) %>% 
+  filter(percentage != 0) %>% 
+  ggplot(aes(x = "", y = percentage, fill = feature)) +
+  geom_col() +
+  geom_text(aes(label = percentage),
+            position = position_stack(vjust = 0.5),
+            size = 3,
+            show.legend = FALSE) +
+  coord_polar(theta = "y") +
+  facet_wrap(~seesAOIplot) +
+  labs(title = "The percentage of features in each plot",
+       x = "",
+       y = "") +
+  guides(fill = guide_legend(title = "Features")) +
+  scale_fill_viridis_d() +
+  theme_void()
+  
+```
+
+
+
+# Bar chart
+
+```{r}
+Aerial %>% 
+  pivot_longer(cols = 7:19,
+               names_to = "feature",
+               values_to = "percentage") %>% 
+  mutate(feature = str_replace(feature, "ceo", ""),
+         percentage = round(percentage, 1)) %>% 
+  filter(AOI_NUM %in% c(2, 3) & ceoPLOT_NUM %in% c(7,9)) %>% 
+  filter(percentage != 0) %>% 
+  ggplot(aes(x = feature, y = percentage, fill = as.factor(seesAOIplot))) +
+  geom_col(position = "fill") +
+  labs(title = "The proportion of each feature in all plots",
+       x = "",
+       y = "Percentage") +
+  guides(fill = guide_legend(title = "Plots")) +
+  coord_flip() +
+  theme_bw()
+  
+```
+
+
+
+
+```{r}
+pictures <- read_csv("../finalData/pictures.csv")
+```
+
+## Pictures 1-Location
+
+```{r}
+location <- pictures %>% 
+  select(OBJECTID, landcoversLandCoverId, landcoversMeasuredAt, siteName, landcoversMeasurementLatitude, landcoversMeasurementLongitude, elevation, landcoversMeasurementElevation, landcoversMucDescription) %>% 
+  rename(LandCoverID = landcoversLandCoverId,
+         MeasuredTime = landcoversMeasuredAt,
+         SiteName = siteName,
+         MeasuredLatitude = landcoversMeasurementLatitude,
+         MeasuredLogitude = landcoversMeasurementLongitude,
+         Elevation = elevation,
+         MeasuredElevation = landcoversMeasurementElevation,
+         MucDescription = landcoversMucDescription)
+
+#location %>% 
+#  write_csv("../finalData/location.csv")
+```
+
+
+## Pictures 2-Downward
+
+```{r}
+downward <- 
+  pictures %>% 
+  select(OBJECTID, contains("Downward")) %>% 
+  mutate(thumbUrl = str_replace(landcoversDownwardPhotoUrl, "original", "thumb")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_extract(thumbUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadThumbPicture = str_replace_all(DownloadThumbPicture, "/", "_")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_c("golc", "thumb", DownloadThumbPicture, sep = "_"),
+                                       "null")) %>% 
+  rename("DownwardOriginalUrl" = landcoversDownwardPhotoUrl) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!DownwardOriginalUrl %in% c("null", "rejected"),
+                                       str_extract(DownwardOriginalUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadOriginalPicture = str_replace_all(DownloadOriginalPicture, "/", "_")) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!DownwardOriginalUrl %in% c("null", "rejected"),
+                                       str_c("golc", DownloadOriginalPicture, sep = "_"),
+                                       "null")) %>% 
+  select(OBJECTID, thumbUrl, DownloadThumbPicture, DownwardOriginalUrl, DownloadOriginalPicture)
+
+#downward %>% 
+#  write_csv("../finalData/downward.csv")
+```
+
+## Pictures 3-East
+
+```{r}
+east <- 
+  pictures %>% 
+  select(OBJECTID, contains("East")) %>% 
+  mutate(thumbUrl = str_replace(landcoversEastPhotoUrl, "original", "thumb")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_extract(thumbUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadThumbPicture = str_replace_all(DownloadThumbPicture, "/", "_")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_c("golc", "thumb", DownloadThumbPicture, sep = "_"),
+                                       "null")) %>% 
+  rename("EastOriginalUrl" = landcoversEastPhotoUrl) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!EastOriginalUrl %in% c("null", "rejected"),
+                                       str_extract(EastOriginalUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadOriginalPicture = str_replace_all(DownloadOriginalPicture, "/", "_")) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!EastOriginalUrl %in% c("null", "rejected"),
+                                       str_c("golc", DownloadOriginalPicture, sep = "_"),
+                                       "null")) %>% 
+  select(OBJECTID, landcoversEastClassifications, thumbUrl, DownloadThumbPicture, EastOriginalUrl, DownloadOriginalPicture)
+
+#east %>% 
+#  write_csv("../finalData/east.csv")
+```
+
+## Pictures 4-North
+
+```{r}
+#north <- 
+  pictures %>% 
+  select(OBJECTID, contains("North")) %>% 
+  mutate(thumbUrl = str_replace(landcoversNorthPhotoUrl, "original", "thumb")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_extract(thumbUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadThumbPicture = str_replace_all(DownloadThumbPicture, "/", "_")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_c("golc", "thumb", DownloadThumbPicture, sep = "_"),
+                                       "null")) %>% 
+  rename("NorthOriginalUrl" = landcoversNorthPhotoUrl) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!NorthOriginalUrl %in% c("null", "rejected"),
+                                       str_extract(NorthOriginalUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadOriginalPicture = str_replace_all(DownloadOriginalPicture, "/", "_")) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!NorthOriginalUrl %in% c("null", "rejected"),
+                                       str_c("golc", DownloadOriginalPicture, sep = "_"),
+                                       "null")) %>% 
+  select(OBJECTID, landcoversNorthClassifications, thumbUrl, DownloadThumbPicture, NorthOriginalUrl, DownloadOriginalPicture)
+  
+  
+
+
+#north %>% 
+#  write_csv("../finalData/north.csv")
+```
+
+
+## Pictures 5-South
+
+```{r}
+south <-
+  pictures %>% 
+  select(OBJECTID, contains("South")) %>% 
+  mutate(thumbUrl = str_replace(landcoversSouthPhotoUrl, "original", "thumb")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_extract(thumbUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadThumbPicture = str_replace_all(DownloadThumbPicture, "/", "_")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_c("golc", "thumb", DownloadThumbPicture, sep = "_"),
+                                       "null")) %>% 
+  rename("SouthOriginalUrl" = landcoversSouthPhotoUrl) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!SouthOriginalUrl %in% c("null", "rejected"),
+                                       str_extract(SouthOriginalUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadOriginalPicture = str_replace_all(DownloadOriginalPicture, "/", "_")) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!SouthOriginalUrl %in% c("null", "rejected"),
+                                       str_c("golc", DownloadOriginalPicture, sep = "_"),
+                                       "null")) %>% 
+  select(OBJECTID, landcoversSouthClassifications, thumbUrl, DownloadThumbPicture, SouthOriginalUrl, DownloadOriginalPicture)
+
+#south %>% 
+#  write_csv("../finalData/south.csv")
+```
+
+## Pictures 6-Upward
+
+```{r}
+upward <- 
+  pictures %>%  
+  select(OBJECTID, contains("Upward")) %>% 
+  mutate(thumbUrl = str_replace(landcoversUpwardPhotoUrl, "original", "thumb")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_extract(thumbUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadThumbPicture = str_replace_all(DownloadThumbPicture, "/", "_")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_c("golc", "thumb", DownloadThumbPicture, sep = "_"),
+                                       "null")) %>% 
+  rename("UpwardOriginalUrl" = landcoversUpwardPhotoUrl) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!UpwardOriginalUrl %in% c("null", "rejected"),
+                                       str_extract(UpwardOriginalUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadOriginalPicture = str_replace_all(DownloadOriginalPicture, "/", "_")) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!UpwardOriginalUrl %in% c("null", "rejected"),
+                                       str_c("golc", DownloadOriginalPicture, sep = "_"),
+                                       "null")) %>% 
+  select(OBJECTID, thumbUrl, DownloadThumbPicture, UpwardOriginalUrl, DownloadOriginalPicture)
+
+#upward %>% 
+#  write_csv("../finalData/upward.csv")
+```
+
+## Pictures 7-West
+
+```{r}
+west <- 
+  pictures %>% 
+  select(OBJECTID, contains("West")) %>% 
+  mutate(thumbUrl = str_replace(landcoversWestPhotoUrl, "original", "thumb")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_extract(thumbUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadThumbPicture = str_replace_all(DownloadThumbPicture, "/", "_")) %>% 
+  mutate(DownloadThumbPicture = ifelse(!thumbUrl %in% c("null", "rejected"),
+                                       str_c("golc", "thumb", DownloadThumbPicture, sep = "_"),
+                                       "null")) %>% 
+  rename("WestOriginalUrl" = landcoversWestPhotoUrl) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!WestOriginalUrl %in% c("null", "rejected"),
+                                       str_extract(WestOriginalUrl, "\\d{4}/\\d{2}/\\d{2}/\\d+"),
+                                       "null")) %>% 
+  mutate(DownloadOriginalPicture = str_replace_all(DownloadOriginalPicture, "/", "_")) %>% 
+  mutate(DownloadOriginalPicture = ifelse(!WestOriginalUrl %in% c("null", "rejected"),
+                                       str_c("golc", DownloadOriginalPicture, sep = "_"),
+                                       "null")) %>% 
+  select(OBJECTID, landcoversWestClassifications, thumbUrl, DownloadThumbPicture, WestOriginalUrl, DownloadOriginalPicture)
+
+#west %>% 
+#  write_csv("../finalData/west.csv")
+```
+
+## Pictures 8-features
+
+```{r}
+feature <- pictures %>% 
+  select(OBJECTID, landcoversDryGround, landcoversFieldNotes, landcoversLeavesOnTrees, landcoversMuddy, landcoversRainingSnowing, landcoversSnowIce, landcoversStandingWater) %>% 
+  select(OBJECTID, landcoversFieldNotes, everything()) %>% 
+  rename(FieldNotes = landcoversFieldNotes,
+         DryFround = landcoversDryGround,
+         LeavesOnTrees = landcoversLeavesOnTrees,
+         Muddy = landcoversMuddy,
+         RainingSnowing = landcoversRainingSnowing,
+         SnowIce = landcoversSnowIce,
+         StandingWater = landcoversStandingWater)
+
+#feature %>% 
+#  write_csv("../finalData/feature.csv")
+```
+
+
+```{r}
+names(pictures)
+```
+
+# Mosquito Habitats
+
+```{r}
+mosquito <- read_csv("../data/AdoptAPixel3km2020_GO_MosquitoHabitatMapper.csv")
+```
+
+```{r}
+mos <- mosquito %>% 
+  select(-protocol, -mosquitohabitatmapperDataSource, -mosquitohabitatmapperExtraData, -mosquitohabitatmapperMosquitoEggCount) %>% 
+  rename(MapperId = mosquitohabitatmapperMosquitoHabitatMapperId,
+         MeasuredTime = mosquitohabitatmapperMeasuredAt,
+         MeasuredLatitude = mosquitohabitatmapperMeasurementLatitude,
+         MeasuredLongitude = mosquitohabitatmapperMeasurementLongitude,
+         AbdomenCloseupPhotoUrls = mosquitohabitatmapperAbdomenCloseupPhotoUrls,
+         BreedingGroundEliminated = mosquitohabitatmapperBreedingGroundEliminated,
+         Comments = mosquitohabitatmapperComments,
+         Genus = mosquitohabitatmapperGenus,
+         LarvaFullBodyPhotoUrls = mosquitohabitatmapperLarvaFullBodyPhotoUrls,
+         LarvaeCount = mosquitohabitatmapperLarvaeCount,
+         LastIdentifyStage = mosquitohabitatmapperLastIdentifyStage,
+         Adults = mosquitohabitatmapperMosquitoAdults,
+         Eggs = mosquitohabitatmapperMosquitoEggs,
+         Pupae = mosquitohabitatmapperMosquitoPupae,
+         Species = mosquitohabitatmapperSpecies,
+         WaterSource = mosquitohabitatmapperWaterSource,
+         WaterSourcePhotoUrls = mosquitohabitatmapperWaterSourcePhotoUrls,
+         WaterSourceType = mosquitohabitatmapperWaterSourceType)
+```
+
+
+```{r}
+names(mos)
+```
+
+
+```{r}
+mosLocation <- mos %>% 
+  select(OBJECTID:MeasuredLongitude)
+
+#mosLocation %>% 
+#  write_csv("../finalData/mosquitoLocation.csv")
+```
+
+
+```{r}
+mosFeatures <- mos %>% 
+  select(OBJECTID, AbdomenCloseupPhotoUrls:WaterSourceType) %>% 
+  select(-contains("URL"))
+
+#mosFeatures %>% 
+#  write_csv("../finalData/mosquitoFeatures.csv")
+```
+
+
+
+
+
+### Tidy Mosquito URLs
+
+```{r}
+# Abdomen column has 4 semicolons at most
+mos %>% 
+  select(contains("URL")) %>% 
+  mutate(abdomen = str_count(AbdomenCloseupPhotoUrls, ";")) %>% 
+  arrange(desc(abdomen)) %>% 
+  select(abdomen)
+```
+
+```{r}
+# Larva column has 6 semicolons at most
+mos %>% 
+  select(contains("URL")) %>% 
+  mutate(Larva = str_count(LarvaFullBodyPhotoUrls, ";")) %>% 
+  arrange(desc(Larva)) %>% 
+  select(Larva)
+```
+
+```{r}
+# Water column has 8 semicolons at most
+mos %>% 
+  select(contains("URL")) %>% 
+  mutate(Water = str_count(WaterSourcePhotoUrls, ";")) %>% 
+  arrange(desc(Water)) %>% 
+  select(Water)
+```
+
+```{r}
+mosSep <- mos %>% 
+  select(OBJECTID, contains("URL")) %>% 
+  separate(col = AbdomenCloseupPhotoUrls,
+           into = c("Abdomen1", "Abdomen2", "Abdomen3", "Abdomen4", "Abdomen5"),
+           sep = ";",
+           extra = "merge",
+           fill = "right") %>% 
+  separate(col = LarvaFullBodyPhotoUrls,
+           into = c("Larva1", "Larva2", "Larva3", "Larva4", "Larva5", "Larva6", "Larva7"),
+           sep = ";",
+           extra = "merge",
+           fill = "right") %>% 
+  separate(col = WaterSourcePhotoUrls,
+           into = c("Water1", "Water2", "Water3", "Water4", "Water5", "Water6", "Water7", "Water8", "Water9"),
+           sep = ";",
+           extra = "merge",
+           fill = "right") 
+mosSep 
+```
+
+```{r}
+mosURL <- mosSep %>% 
+  pivot_longer(cols = starts_with("Abdomen"),
+               names_to = "AbdomenCloseup",
+               values_to = "AbdomenCloseupPhotoUrls") %>% 
+  pivot_longer(cols = starts_with("Larva"),
+               names_to = "LarvaFullBody",
+               values_to = "LarvaFullBodyPhotoUrls") %>% 
+  pivot_longer(cols = starts_with("Water"),
+               names_to = "WaterSource",
+               values_to = "WaterSourcePhotoUrls") %>% 
+  drop_na() %>% 
+  filter(AbdomenCloseupPhotoUrls != "null" | LarvaFullBodyPhotoUrls!= "null" | WaterSourcePhotoUrls != "null") 
+
+View(mosURL)
+```
+
+```{r}
+#mosURL %>% 
+#  write_csv("../finalData/mosquitoURLs.csv")
+```
+
+
+
+
+
+
+```{r}
+mosFeatures %>% 
+  select(contains("LarvaFullBodyPhotoUrls")) %>% 
+  unique()
+```
+
+
+```{r}
+names(read_csv("../finalData/mosquitoURLs.csv"))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

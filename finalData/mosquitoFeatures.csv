@@ -1,0 +1,535 @@
+OBJECTID,BreedingGroundEliminated,Comments,Genus,LarvaeCount,LastIdentifyStage,Adults,Eggs,Pupae,Species,WaterSource,WaterSourceType
+1,FALSE,null,null,null,identify,null,null,FALSE,null,can or bottle,container: artificial
+2,FALSE,null,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+3,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+4,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+5,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+6,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+7,FALSE,Pond water,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+8,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+9,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+10,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+11,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+12,FALSE,There’s larvae of all sizes.,null,null,identify-saddle-comb,TRUE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+13,FALSE,"Mosquito traps were just placed, so I will photograph them collectively this first time, then individually for each 5-10 day observation.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+14,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+15,FALSE,null,Aedes,20,identify-aedes-tuft,TRUE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+16,FALSE,Large numbers of identical unknown species in jar.,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+17,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+18,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+19,FALSE,null,Aedes,20,identify-aedes-tuft,TRUE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+20,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+21,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+22,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+23,FALSE,"I have recently moved the traps to a new location, due to my family going on vacation.",null,null,identify,null,null,FALSE,null,other,container: artificial
+24,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+25,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+26,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+27,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+28,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+29,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+30,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+31,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+32,FALSE,"I think it’s part of a larvae that’s I broke, but I’m not sure.",null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,other,container: artificial
+33,FALSE,null,null,0,identify,FALSE,TRUE,FALSE,null,other,container: artificial
+34,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+35,FALSE,null,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,other,container: artificial
+36,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+37,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+38,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+39,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+40,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+41,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+42,FALSE,null,null,1,identify-verify-larva,FALSE,TRUE,FALSE,null,other,container: artificial
+43,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+44,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+45,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+46,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+47,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+48,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+49,TRUE,It look like it was a resent puddle.,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+50,FALSE,null,Culex,16,identify-no-basal-tuft,TRUE,FALSE,TRUE,null,ditch,still: lake/pond/swamp
+51,FALSE,null,Culex,8,identify-no-basal-tuft,TRUE,TRUE,TRUE,null,ditch,still: lake/pond/swamp
+52,FALSE,null,Culex,9,identify-no-basal-tuft,TRUE,TRUE,FALSE,null,ditch,still: lake/pond/swamp
+53,FALSE,null,Aedes,62,identify-aedes-thorax,TRUE,TRUE,TRUE,incerta,ditch,still: lake/pond/swamp
+54,FALSE,null,Aedes,42,identify-saddle-comb,TRUE,FALSE,TRUE,albopictus,ditch,still: lake/pond/swamp
+55,FALSE,null,null,null,identify,null,null,FALSE,null,jar,container: artificial
+56,FALSE,null,null,null,identify,null,null,FALSE,null,jar,container: artificial
+57,FALSE,Many mosquitoes around the trap.,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+58,FALSE,Most of the larvae where big in size.,null,null,identify-siphon-pecten,TRUE,FALSE,TRUE,null,"cement, metal or plastic tank",container: artificial
+59,FALSE,"This habitat is a fenced off indent in the ground, with a sprinkler head in the center. The fence causes standing water to collect when it rains or the sprinkler goes off.",null,null,identify,null,null,FALSE,null,other,container: artificial
+60,FALSE,"This is a mosquito larvae trap that I built and filled with lemon juice mixed with water. I refilled it last week with this lemon solution, and checked it today. It did not contain any mosquito larvae, just some congealed lemon juice and other unknown insects and gelatinous substances.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+61,FALSE,"This is a mosquito larvae trap that I built and filled with sink water. I refilled it last week with sink water, and checked it today. It did not contain any mosquito larvae, just some dead ants, a dead spider, and a couple of small insects.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+62,FALSE,"This is a mosquito larvae trap that I built and filled with salt water. I refilled the trap with salt water last week, and checked it today. There were no mosquito larvae in the trap, but the trap did attract pill bugs, ants, spiders, a beetle, and a cockroach.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+63,FALSE,"This is a mosquito larvae trap that I built and filled with alkaline water. I refilled the trap with alkaline water last week, and checked it today and found these larvae.",null,16,identify-siphon-pecten,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+64,FALSE,This is a mosquito larvae trap that I built and filled with sink water. I left it out for a week before checking it today- there were no larvae in it.,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+65,FALSE,"This is a mosquito larvae trap that I built and filled with sugar water. I left it out for a week before checking it today- there were no larvae in it. Ants were crawling all over the trap, and just five minutes after I cleaned and refilled the trap then placed it back, the ants had found it once more.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+66,FALSE,"This is a mosquito larvae trap that I built and filled with salt water. I left it out for a week before checking it today- there were no larvae in it. There was a live cockroach in the trap, as well as some dead spiders, pill bugs, and ants. When I went to retrieve the trap, I found a large spider web next to it. I know that some spiders eat mosquito larvae, which may have to do with the absence of larvae in my trap.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+67,FALSE,"This is a mosquito larvae trap that I built and filled with lemon juice mixed with water. I left it out for a week before checking it today- there were no larvae in it. The trap was filled with silver fish- most of them were dead and not fully grown, but there were a couple of live adults that crawled out when I poured the trap's contents onto a plate.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+68,FALSE,"These larvae are from a mosquito larvae trap that I built and filled with alkaline water. I checked the trap yesterday after it had been sitting out for a week,  and I observed the larvae more closely today. The trap contained 5 larvae yesterday, and one of them became a pupa today.",null,4,identify-siphon-pecten,FALSE,FALSE,TRUE,null,adult mosquito trap,container: artificial
+69,FALSE,This is a mosquito larvae trap that I built and filled with sink water. It was out for a week before I checked it today. This trap has never yielded any mosquito larvae.,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+70,FALSE,null,null,null,identify,null,null,FALSE,null,swamp or wetland,still: lake/pond/swamp
+71,FALSE,null,null,null,identify,null,null,FALSE,null,other,still: lake/pond/swamp
+72,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+73,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+74,TRUE,null,null,null,identify-siphon-pecten,null,null,FALSE,null,ovitrap,container: artificial
+75,FALSE,"This is a public garden area with a creek and some man made buckets. I did she mosquitoes b it when I closely observed the water, I didn’t see any larvae.",null,0,identify,TRUE,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+76,FALSE,I found some odd organisms in this site even though I did not find any larvae or pupae. I think this would be a good mosquito breeding habitat because of the semi deep water and the wooden plank that was halfway submerged.,null,0,identify,FALSE,FALSE,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+77,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+78,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+79,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+80,TRUE,The larvae’s where mostly small and the pupae was a little odd.,null,null,identify-siphon-shape,TRUE,FALSE,TRUE,null,animal trough or water bowl,container: artificial
+81,TRUE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+82,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+83,TRUE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+84,FALSE,null,null,null,identify,null,null,FALSE,null,pool,container: artificial
+85,TRUE,null,null,null,identify,null,null,FALSE,null,animal trough or water bowl,container: artificial
+86,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+87,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+88,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+89,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+90,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+91,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+92,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+93,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+94,TRUE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+95,FALSE,null,null,27,identify-later,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+96,TRUE,null,null,null,identify-later,null,null,FALSE,null,ditch,still: lake/pond/swamp
+97,FALSE,null,null,null,identify,null,null,FALSE,null,rain gutter or other architectural feature,container: artificial
+98,FALSE,"This is a mosquito larvae trap that I built and filled with sugar water. After leaving it in a tree for 6 days, I checked it. There were no mosquito larvae in the trap, just some large dead ants. The sugar water had fermented a bit, so I poured it out and refilled it with new suagr water. I put the trap back in the tree, and will be checking it again sometime next week.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+99,FALSE,"This is a mosquito larvae trap that I built and filled with alkaline water. After leaving it in the woods off of a nature trail for 6 days, I checked it. There were no mosquito larvae in the trap. I refilled the trap with alkaline water, put it back in the woods, and will be checking it again some time next week.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+100,FALSE,"This is a mosquito larvae trap that I built and filled with salt water. After leaving it in the woods off of a nature trail for 6 days, I checked it. It had been knocked over, but there was still some salt water in it. However, there were no mosquito larvae in the trap. I refilled the salt water, put the trap back (making sure it was extra secure), and will be checking it again some time next week.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+101,FALSE,null,null,null,identify,null,null,FALSE,null,other,flowing: still water found next to river or stream
+102,FALSE,null,null,null,identify,null,null,FALSE,null,jar,container: artificial
+103,TRUE,null,null,null,identify,FALSE,FALSE,FALSE,null,jar,container: artificial
+104,FALSE,null,null,0,identify,FALSE,FALSE,FALSE,null,animal trough or water bowl,container: artificial
+105,FALSE,I will go take a bigger sample in the near future.,null,1,identify-photo-larva,TRUE,null,FALSE,null,rain gutter or other architectural feature,container: artificial
+106,FALSE,null,null,0,identify,FALSE,FALSE,FALSE,null,animal trough or water bowl,container: artificial
+107,FALSE,"No mosquitoes, but there were a couple of Daphnia pulex.",null,0,identify,FALSE,FALSE,FALSE,null,animal trough or water bowl,container: artificial
+108,FALSE,There are also some fly larvae in this water source,Culex,11,identify-no-basal-tuft,TRUE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+109,FALSE,null,Culex,65,identify-no-basal-tuft,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+110,FALSE,"No mosquitoes, but there are some Daphnia pulex and Mysis relicta.",null,0,identify,FALSE,FALSE,FALSE,null,animal trough or water bowl,container: artificial
+111,FALSE,null,null,null,identify,null,null,FALSE,null,can or bottle,container: artificial
+112,FALSE,null,null,null,identify-later,null,null,FALSE,null,can or bottle,container: artificial
+113,FALSE,null,null,3,identify-later,FALSE,FALSE,FALSE,null,can or bottle,container: artificial
+114,TRUE,null,Culex,7,identify-no-basal-tuft,FALSE,FALSE,FALSE,null,animal trough or water bowl,container: artificial
+115,TRUE,null,null,null,identify-analyze-siphon,null,null,FALSE,null,ovitrap,container: artificial
+116,TRUE,null,null,null,identify-verify-larva,null,TRUE,FALSE,null,"cement, metal or plastic tank",container: artificial
+117,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+118,TRUE,null,null,2,identify-verify-larva,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+119,FALSE,null,null,0,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+120,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+121,TRUE,Lots of ants,null,0,identify,TRUE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+122,TRUE,null,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+123,TRUE,null,null,null,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+124,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+125,TRUE,null,null,null,identify-verify-larva,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+126,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+127,TRUE,null,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+128,TRUE,null,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+129,TRUE,null,null,null,identify-verify-larva,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+130,FALSE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+131,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+132,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+133,TRUE,null,null,35,identify-siphon-pecten,FALSE,FALSE,TRUE,null,"cement, metal or plastic tank",container: artificial
+134,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+135,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+136,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+137,TRUE,null,null,15,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+138,TRUE,null,Aedes,35,identify-aedes-albopictus,FALSE,FALSE,FALSE,albopictus,"cement, metal or plastic tank",container: artificial
+139,TRUE,"Similar phenomenon: multiple adult mosquitos but no larvae, eggs, or pupae.",null,0,identify,TRUE,FALSE,FALSE,null,plant clumps (bamboo etc),container: natural
+140,TRUE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+141,TRUE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+142,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+143,TRUE,Google searching for the Asian Tiger mosquito larva shows a larva almost identical with the one I caught.,null,1,identify-saddle-comb,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+144,TRUE,"While removing the excess water with a napkin, I accidentally sucked the larva out of the water and killed it before I could identify it.",null,1,identify-siphon-shape,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+145,TRUE,NA,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+146,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+147,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+148,TRUE,"I used a microscope to analyze the larva, making it difficult to take close up pictures from my phone.",Aedes,32,identify-aedes-albopictus,FALSE,FALSE,FALSE,albopictus,adult mosquito trap,container: artificial
+149,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+150,TRUE,null,Aedes,1,identify-aedes-albopictus,FALSE,FALSE,FALSE,albopictus,adult mosquito trap,container: artificial
+151,TRUE,Lots of dead ants,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+152,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+153,TRUE,Lots of dead pill bugs and organic matter though.,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+154,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+155,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+156,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+157,TRUE,Lots of adult mosquitoes around ferns,null,0,identify,FALSE,TRUE,FALSE,null,adult mosquito trap,container: artificial
+158,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+159,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+160,TRUE,"The container got knocked over, invalidating the data.",null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+161,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+162,FALSE,null,null,null,identify,null,null,FALSE,null,tree holes,container: natural
+163,FALSE,"This creek is connected to various parts throughout the neighborhood. As I got closer to it, I saw various mosquitoes so I assumed it was a breeding habitat due to this, the water source,and the shade.",null,null,identify-later,null,null,FALSE,null,ditch,still: lake/pond/swamp
+164,FALSE,Trap placed in area sorrounded by trees,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+165,FALSE,Trap placed against tree near creek.,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+166,FALSE,The trap held several insects as well as two snails.,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+167,FALSE,null,null,null,identify,null,null,FALSE,null,fountain or bird bath,container: artificial
+168,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+169,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+170,TRUE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+171,TRUE,null,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+172,TRUE,null,null,null,identify-later,null,null,FALSE,null,dish or pot,container: artificial
+173,TRUE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+174,TRUE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+175,TRUE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+176,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+177,FALSE,null,null,0,identify,null,null,FALSE,null,tire,container: artificial
+178,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+179,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+180,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+181,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+182,TRUE,null,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+183,TRUE,null,null,null,identify,null,null,FALSE,null,lake,still: lake/pond/swamp
+184,FALSE,null,null,null,identify,null,null,FALSE,null,lake,still: lake/pond/swamp
+185,TRUE,null,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+186,TRUE,null,null,0,null,FALSE,FALSE,FALSE,null,ditch,still: lake/pond/swamp
+187,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+188,FALSE,null,null,null,identify-later,null,null,FALSE,null,ovitrap,container: artificial
+189,FALSE,null,null,null,identify-later,null,null,FALSE,null,ovitrap,container: artificial
+190,FALSE,null,null,null,identify-later,null,null,FALSE,null,ovitrap,container: artificial
+191,FALSE,null,null,null,identify-later,null,null,FALSE,null,ovitrap,container: artificial
+192,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+193,FALSE,null,null,null,identify-later,null,null,FALSE,null,ovitrap,container: artificial
+194,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+195,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+196,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+197,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+198,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+199,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+200,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+201,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+202,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+203,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+204,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+205,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+206,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+207,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+208,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+209,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+210,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+211,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+212,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+213,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+214,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+215,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+216,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+217,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+218,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+219,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+220,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+221,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+222,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+223,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+224,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+225,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+226,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+227,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+228,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+229,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+230,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+231,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+232,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+233,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+234,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+235,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+236,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+237,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+238,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+239,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+240,FALSE,null,null,20,identify,FALSE,TRUE,TRUE,null,ovitrap,container: artificial
+241,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+242,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+243,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+244,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+245,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+246,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+247,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+248,TRUE,null,null,0,identify,TRUE,FALSE,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+249,TRUE,null,null,13,identify-siphon-shape,TRUE,TRUE,TRUE,null,dish or pot,container: artificial
+250,FALSE,2 hours,Anopheles,2,identify-no-siphon,FALSE,TRUE,TRUE,null,ditch,still: lake/pond/swamp
+251,TRUE,I did not see any larvae in the smaple of water from the pond,null,null,identify,null,null,FALSE,null,swamp or wetland,still: lake/pond/swamp
+252,TRUE,"There were multiple adult mosquitos but few larvae, pupae, and eggs puns.",null,1,identify,TRUE,FALSE,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+253,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+254,FALSE,null,null,null,identify,null,null,FALSE,null,other,still: lake/pond/swamp
+255,TRUE,"There was water covered by the ferns, but no mosquito larvae sampled.",null,0,identify,TRUE,FALSE,FALSE,null,other,still: lake/pond/swamp
+256,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,ditch,still: lake/pond/swamp
+257,TRUE,null,null,0,identify,TRUE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+258,TRUE,null,null,null,identify-later,TRUE,null,FALSE,null,discarded: other,container: artificial
+259,TRUE,null,null,null,identify-siphon-shape,TRUE,null,FALSE,null,can or bottle,container: artificial
+260,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+261,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+262,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+263,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+264,FALSE,There’s a lot of ants in the mosquito habitat,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+265,FALSE,There were mosquitoes around the habitat but there were no larvae.,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+266,TRUE,It had no water since it was lying dow.,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+267,FALSE,Many insects like ants and flies but it seem like not any larvae.,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+268,FALSE,The water of the habitat was a little dirty and had some insects but no mosquito larvae.,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+269,TRUE,There are more  pupae that larvae. I could not get a larva.,null,null,identify-verify-larva,TRUE,FALSE,FALSE,null,tire,container: artificial
+270,TRUE,I could identity mosquito pupae but I couldn’t find larvae.,null,null,identify-verify-larva,TRUE,FALSE,FALSE,null,tire,container: artificial
+271,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+272,FALSE,There were many adult mosquitoes in the area.,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+273,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+274,FALSE,Many adults mosquitoes in the area.,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+275,TRUE,null,null,null,identify-siphon-pecten,TRUE,FALSE,TRUE,null,animal trough or water bowl,container: artificial
+276,FALSE,There were some strange larvae a but it was not a mosquito larvae.,null,0,identify,TRUE,FALSE,FALSE,null,ovitrap,container: artificial
+277,FALSE,Some adults mosquitoes in the area.,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+278,FALSE,"There were some ants and other insects, but no mosquito larvae.",null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+279,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+280,FALSE,null,Culex,4,identify-no-basal-tuft,TRUE,TRUE,FALSE,null,ovitrap,container: artificial
+281,FALSE,null,null,10,identify-siphon-shape,TRUE,FALSE,TRUE,null,animal trough or water bowl,container: artificial
+282,FALSE,A lot of ants in the trap. No mosquito larvae.,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+283,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+284,TRUE,Many adult mosquitoes inside this habitat.,null,null,identify,null,null,FALSE,null,discarded: other,container: artificial
+285,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+286,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+287,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+288,FALSE,null,null,null,identify,null,null,FALSE,null,flower or plant pot/tray,container: artificial
+289,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+290,FALSE,Some leafs where obstructing the trap.,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+291,TRUE,The water on the habitat was rain water.,null,null,identify-siphon-pecten,TRUE,FALSE,FALSE,null,dish or pot,container: artificial
+292,TRUE,null,null,null,identify-siphon-pecten,null,null,FALSE,null,pond,still: lake/pond/swamp
+293,FALSE,"1 tsp salt, salt accumulated at bottom, rainy weather, some debris and bugs",null,0,null,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+294,FALSE,"Grass, some debris and bugs",null,0,null,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+295,FALSE,"1/2 tsp yeast, rainy weather, some bugs and debris",null,0,null,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+296,FALSE,"1/2 tsp yeast, sunny, bugs",null,0,null,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+297,FALSE,null,null,2,identify,FALSE,TRUE,FALSE,null,fountain or bird bath,container: artificial
+298,TRUE,null,null,null,identify,null,null,FALSE,null,jar,container: artificial
+299,TRUE,null,null,null,identify,null,null,FALSE,null,jar,container: artificial
+300,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+301,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+302,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+303,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+304,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+305,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+306,FALSE,null,null,null,identify-later,null,null,FALSE,null,ditch,still: lake/pond/swamp
+307,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+308,FALSE,null,null,null,identify,null,null,FALSE,null,lake,still: lake/pond/swamp
+309,TRUE,null,null,null,identify,null,null,FALSE,null,can or bottle,container: artificial
+310,FALSE,null,null,5,identify-later,FALSE,TRUE,FALSE,null,ditch,still: lake/pond/swamp
+311,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+312,FALSE,null,null,null,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+313,FALSE,"Trap placed next to shady, wooden fence.",null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+314,TRUE,"None of the traps had any mosquitoes larvae inside. The baits used were: yeast&sugar, fish food, tap water, creek water, water&grass clippings",null,0,identify,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+315,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+316,FALSE,Still no mosquitoes,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+317,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+318,FALSE,null,null,0,identify,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+319,FALSE,still nothing,null,0,null,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+320,FALSE,null,null,null,identify,null,null,FALSE,null,reservoir,still: lake/pond/swamp
+321,FALSE,null,null,null,identify,null,null,FALSE,null,pool,container: artificial
+322,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+323,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+324,FALSE,null,null,null,identify,null,null,FALSE,null,swamp or wetland,still: lake/pond/swamp
+325,FALSE,Pond water sample,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+326,FALSE,Bottled water trap,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+327,FALSE,Grass,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+328,TRUE,Dead adults,null,0,identify,TRUE,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+329,FALSE,Bottled water,null,null,identify,null,null,FALSE,null,jar,container: artificial
+330,FALSE,Grass water,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+331,FALSE,Banana,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+332,FALSE,Bottled water,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+333,FALSE,Tap water,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+334,TRUE,Grass water,null,6,identify-siphon-hairs,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+335,FALSE,Banana water,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+336,FALSE,null,null,null,identify,null,null,FALSE,null,other,flowing: still water found next to river or stream
+337,TRUE,"My microscope skills are bad, so I’ll try to identify some other samples later this week",null,5,identify,FALSE,FALSE,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+338,FALSE,Mosquito season still hasn't really started yet,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+339,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+340,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+341,TRUE,null,null,3,identify-verify-larva,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+342,TRUE,null,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+343,TRUE,"Microscopic bugs and grass present, but no mosquito larvae.",null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+344,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+345,FALSE,null,null,null,identify,null,null,FALSE,null,plant clumps (bamboo etc),container: natural
+346,FALSE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+347,FALSE,null,null,11,identify-siphon-pecten,TRUE,FALSE,TRUE,null,ditch,still: lake/pond/swamp
+348,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+349,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle, vehhicle or animal tracks",still: lake/pond/swamp
+350,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+351,FALSE,There is also a large black bug (not a mosquito) and two smaller bugs that I can’t identity.,null,1,identify,null,null,FALSE,null,other,container: artificial
+352,FALSE,Lots of tadpoles meaning no mosquitoes,null,null,identify,null,null,FALSE,null,other,container: natural
+353,FALSE,null,null,null,identify,null,null,FALSE,null,other,container: artificial
+354,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+355,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+356,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+357,FALSE,null,null,null,identify,null,null,FALSE,null,lake,still: lake/pond/swamp
+358,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+359,FALSE,null,null,null,identify,TRUE,TRUE,FALSE,null,ditch,still: lake/pond/swamp
+360,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+361,TRUE,null,null,0,identify-verify-larva,FALSE,FALSE,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+362,TRUE,null,null,0,null,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+363,TRUE,null,null,0,null,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+364,TRUE,null,null,0,null,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+365,FALSE,null,null,null,identify,null,null,FALSE,null,rain gutter or other architectural feature,container: artificial
+366,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+367,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+368,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+369,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+370,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+371,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+372,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+373,FALSE,null,Aedes,12,identify-aedes-albopictus,TRUE,TRUE,TRUE,albopictus,pond,still: lake/pond/swamp
+374,FALSE,No mosquito larvas,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+375,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+376,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+377,FALSE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+378,TRUE,null,null,7,identify-verify-larva,FALSE,FALSE,FALSE,null,ditch,still: lake/pond/swamp
+379,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+380,FALSE,null,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+381,TRUE,Presence of aquatic bugs in lake but no larvae visible in lake or sample.,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+382,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+383,TRUE,"Microscopic grass and bugs present, but no larvae.",null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+384,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+385,FALSE,null,null,null,null,FALSE,TRUE,FALSE,null,ovitrap,container: artificial
+386,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+387,FALSE,null,null,null,identify,TRUE,TRUE,FALSE,null,ovitrap,container: artificial
+388,FALSE,null,null,null,null,TRUE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+389,FALSE,null,null,4,identify,TRUE,TRUE,FALSE,null,ovitrap,container: artificial
+390,FALSE,null,null,null,null,TRUE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+391,TRUE,null,null,null,null,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+392,FALSE,"While there were no pupae, the number of mosquitoes in the area and the potential eggs and larvae in the water and lack of any fish or sunlight makes me think there might be a mosquito breeding ground there.",null,15,identify,TRUE,TRUE,FALSE,null,pond,still: lake/pond/swamp
+393,FALSE,null,null,null,identify,null,null,FALSE,null,jar,container: artificial
+394,FALSE,null,null,null,identify,null,null,FALSE,null,jar,container: artificial
+395,FALSE,"Different locations: next to air conditioning fan (really loud), in the bushes, under the sink on the patio, wet area, under tree",null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+396,FALSE,Isolated area with stagnant water consistently present,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+397,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+398,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+399,TRUE,null,null,null,identify,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+400,TRUE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+401,FALSE,null,null,null,identify,null,null,FALSE,null,ditch,still: lake/pond/swamp
+402,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+403,FALSE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+404,FALSE,This is one of my mosquito traps. I have not seen any larvae yet,null,null,identify-later,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+405,FALSE,This old flower pot had some water in it and is located under a small tree.,null,null,identify-later,null,null,FALSE,null,dish or pot,container: artificial
+406,FALSE,Trap placed near tree and against fence,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+407,FALSE,"Trap placed in shady, old wooden shack.",null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+408,FALSE,null,null,null,identify,null,null,FALSE,null,rain gutter or other architectural feature,container: artificial
+409,FALSE,null,null,2,identify-later,TRUE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+410,FALSE,The trap held no life but the liquid texture changed.,null,null,identify-later,null,null,FALSE,null,ovitrap,container: artificial
+411,FALSE,There were the most insects in this trap.,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+412,FALSE,This was my most successful trap thus far,null,null,identify-analyze-siphon,FALSE,TRUE,FALSE,null,adult mosquito trap,container: artificial
+413,FALSE,No larva present,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+414,FALSE,This trap was initially against a tree in a park but was moved to a shady backyard area,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+415,FALSE,The larvae do not look like mosquitos,null,null,identify-verify-larva,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+416,FALSE,No larvae,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+417,FALSE,The larvae are all mostly a darker brown shade,null,null,identify-later,FALSE,TRUE,FALSE,null,adult mosquito trap,container: artificial
+418,FALSE,No larvae or any insects within trap,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+419,FALSE,No mosquitoes or larvae,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+420,TRUE,This is a plastic box that was left outside on a rainy week,Anopheles,3,identify-later,FALSE,TRUE,FALSE,null,dish or pot,container: artificial
+421,FALSE,This trap collected other insects that were not mosquitoes.,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+422,FALSE,Very few and small larvae,null,20,identify-later,FALSE,TRUE,FALSE,null,adult mosquito trap,container: artificial
+423,FALSE,null,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+424,FALSE,null,null,null,identify-siphon-hairs,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+425,FALSE,null,null,null,identify-siphon-shape,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+426,FALSE,null,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+427,FALSE,null,null,null,identify-siphon-shape,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+428,FALSE,All the insects and life in the trap were dead.,null,null,identify-later,null,null,FALSE,null,adult mosquito trap,container: artificial
+429,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+430,FALSE,Large Breeding Ground from poor rain drainage,null,42,identify-saddle-comb,TRUE,TRUE,TRUE,null,pond,still: lake/pond/swamp
+431,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+432,FALSE,null,null,0,identify,TRUE,FALSE,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+433,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+434,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+435,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+436,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+437,FALSE,"This water area was covered in algae. The area seemed like a good place for mosquitoes, but maybe the algae interfered.",null,0,identify,TRUE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+438,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+439,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+440,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+441,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+442,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+443,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+444,FALSE,null,null,1,identify,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+445,FALSE,"One other dead bug on the popsicle stick, not a mosquito",null,2,identify,null,null,FALSE,null,ovitrap,container: artificial
+446,FALSE,null,null,0,identify,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+447,FALSE,null,null,0,identify,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+448,FALSE,1 adult mosquito dead in the top of the trap,Aedes,0,null,TRUE,FALSE,FALSE,incerta,ovitrap,container: artificial
+449,FALSE,null,null,0,null,FALSE,FALSE,FALSE,null,ovitrap,container: artificial
+450,FALSE,null,null,0,identify,FALSE,TRUE,FALSE,null,ovitrap,container: artificial
+451,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+452,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+453,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+454,FALSE,There is algae on some of the traps,null,0,identify,null,null,FALSE,null,ovitrap,container: artificial
+455,TRUE,Sample contained many water bugs but no evidence of mosquito larvae presence.,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+456,TRUE,"Large spider was attracted, but no presence of mosquito larvae.",null,0,identify,FALSE,FALSE,FALSE,null,dish or pot,container: artificial
+457,TRUE,"No mosquito larvae present, but many different bugs were present.",null,0,identify,null,null,FALSE,null,dish or pot,container: artificial
+458,TRUE,No mosquitoes presence but ants seemed to have been attracted by the mixture.,null,0,identify,FALSE,FALSE,FALSE,null,dish or pot,container: artificial
+459,TRUE,No insects present.,null,0,identify,FALSE,FALSE,FALSE,null,dish or pot,container: artificial
+460,TRUE,No insect presence detected.,null,0,identify,FALSE,FALSE,FALSE,null,dish or pot,container: artificial
+461,FALSE,null,null,null,identify,null,null,FALSE,null,"public works - culvert, bridge, road",container: artificial
+462,TRUE,"There were no mosquito larvae because the trap  was lying down, it seems like an animal was push it.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+463,TRUE,null,null,null,identify,null,null,FALSE,null,animal trough or water bowl,container: artificial
+464,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+465,FALSE,"Some adult mosquitoes in the area. In the trap there was an egg, but I wasn’t able to identity it.",null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+466,FALSE,"Many adult mosquitoes around the trap, but no larvae present.",null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+467,TRUE,null,null,null,identify,null,null,FALSE,null,adult mosquito trap,container: artificial
+468,FALSE,null,null,0,identify,TRUE,FALSE,FALSE,null,other,flowing: still water found next to river or stream
+469,TRUE,Fish in pond,null,0,identify,TRUE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+470,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,other,flowing: still water found next to river or stream
+471,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+472,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+473,FALSE,null,null,null,identify,null,null,FALSE,null,tire,container: artificial
+474,TRUE,null,null,1,identify,TRUE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+475,TRUE,null,null,null,identify,null,null,FALSE,null,lake,still: lake/pond/swamp
+476,TRUE,Lots of debris but no evidence of any mosquito presence.,null,0,identify-later,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+477,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+478,TRUE,Many aquatic bugs but no larvae present.,null,0,identify,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+479,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+480,TRUE,Found a larva but it is not a mosquito larva.,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+481,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+482,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+483,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+484,FALSE,No larvae found today.,null,null,identify-verify-larva,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+485,FALSE,This is one of my artificial mosquito traps. There is no larvae in the trap yet.,null,null,identify-later,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+486,FALSE,"This is my control mosquito trap, that Is away from any vegetation. I have not seen any larvae yet.",null,null,null,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+487,FALSE,This is one of my mosquito traps hanging from a tree. I don’t see any larvae yet.,null,null,identify-later,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+488,FALSE,null,null,null,identify-verify-larva,null,null,FALSE,null,adult mosquito trap,container: artificial
+489,TRUE,null,Anopheles,5,identify-no-siphon,FALSE,FALSE,FALSE,null,pond,still: lake/pond/swamp
+490,TRUE,null,null,3,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+491,TRUE,null,null,null,identify-verify-larva,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+492,TRUE,Unsure if this is a larva or not.,null,1,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+493,TRUE,null,null,4,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+494,TRUE,null,null,null,identify-verify-larva,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+495,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+496,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+497,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+498,FALSE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+499,TRUE,null,null,2,identify-verify-larva,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+500,FALSE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+501,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+502,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+503,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+504,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+505,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+506,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+507,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+508,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+509,TRUE,Lots of ants,null,0,null,FALSE,FALSE,FALSE,null,"cement, metal or plastic tank",container: artificial
+510,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+511,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+512,TRUE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+513,TRUE,"The container was in a shadow of a house, near some trees. In the area there is drought and high temperatures.",null,null,identify-siphon-pecten,TRUE,FALSE,TRUE,null,"cement, metal or plastic tank",container: artificial
+514,FALSE,It was resent rain water.,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+515,TRUE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+516,TRUE,null,null,null,identify-verify-larva,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+517,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+518,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,adult mosquito trap,container: artificial
+519,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+520,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+521,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+522,FALSE,null,null,null,identify,null,null,FALSE,null,ovitrap,container: artificial
+523,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+524,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,lake,still: lake/pond/swamp
+525,FALSE,null,null,null,identify,null,null,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+526,TRUE,null,null,0,identify,FALSE,FALSE,FALSE,null,"puddle or still water next to a creek, stream or river",flowing: still water found next to river or stream
+527,FALSE,null,null,null,identify,null,null,FALSE,null,pond,still: lake/pond/swamp
+528,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+529,FALSE,null,null,0,identify,FALSE,FALSE,FALSE,null,other,container: artificial
+530,TRUE,null,null,null,identify,null,null,FALSE,null,"cement, metal or plastic tank",container: artificial
+531,FALSE,null,null,0,identify,FALSE,FALSE,FALSE,null,animal trough or water bowl,container: artificial
+532,FALSE,null,null,0,identify,FALSE,FALSE,FALSE,null,animal trough or water bowl,container: artificial
+533,FALSE,null,null,null,identify-later,null,null,FALSE,null,pond,still: lake/pond/swamp
+534,FALSE,null,null,null,identify-later,null,null,FALSE,null,can or bottle,container: artificial

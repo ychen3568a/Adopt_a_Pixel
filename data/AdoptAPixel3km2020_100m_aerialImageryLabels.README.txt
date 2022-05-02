@@ -1,0 +1,62 @@
+
+
+README file for AdoptAPixel3km2020_100m_aerialImageryLabels.csv
+
+TITLE: AdoptAPixel3km2020_100m_aerialImageryLabels.csv
+
+DESCRIPTION: This dataset contains the results of aerial image interpretation performed using the Collect.Earth.Online platform (https://collect.earth) based on the MAXAR satellite imagery 2020 provided through Mapbox (https://www.mapbox.com/maps/satellite). The purpose of this project was to contribute to land cover scientific research by interpreting aerial imagery and labeling 36 1000m2 square plots within a 3km area of interest. This is integrated with ground photos and land cover labels obtained using the citizen science GLOBE Observer mobile app (observer.globe.gov/). Additionally, within a 3km Area of Interest, citizen scientists also documented Mosquito Habitat using the GLOBE Observer mobile app Mosquito Habitat Mapper tool.
+
+TAGS (ISO): biota, environment, society, structure, trees, inlandWaters
+
+TAGS (PLACE): United States
+
+DATA_ATTRIBUTION: SEES2020 Mosquito Mappers
+
+DATA_LICENSE: CC BY 4.0
+
+TEMPORAL_EXTENT: 2020-06-01 to 2020-07-15
+
+LAST_UPDATE: 2020-07-15
+
+PUBLISHING_ORGANIZATION: Institute for Global Environmental Strategies, 
+
+CONTACT: Dr. Russanne Low, IGES, russanne_low@strategies.org
+
+DATA_LIMITATIONS: Data is provided 'as-is'. Please be advised that although these data have been processed successfully on a computer system no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. IGES shall not be held liable for improper or incorrect use of the data.
+
+UPDATE_FREQUENCY: None planned
+
+LANGUAGE: English
+
+COUNTRY: United States
+
+SPATIAL_REFERENCE: EPSG:4326 WGS84
+
+SPATIAL_DATA_REPRESENTATION: Point
+
+ENTITY_AND_ATTRIBUTE_INFORMATION:
+ceoPLOTID | unique number from Collect.Earth.Online | integer\
+LONGITUDE | longitude value in WGS84 | 16-bit float\
+LATITUDE | latitude value in WGS84 | 16-bit float\
+SIZE_M | meter size along one side of plot interpreted in Collect.Earth.Online | integer\
+PLOTSHAPE | shape of plot interpreted in Collect.Earth.Online | text\
+CLASSIFICATION | 	\
+SAMPLE_POINTS | Number of sample points labeled within each plot. 121 points spaced 10m apart in a grid. These points are summarized by the percent of labels in the fields ceoTREES_CANOPYCOVER,ceoBUSH_SCRUB, ceoGRASS, ceoCultivaedVeg, ceoWaterTreatedPool, ceoWaterLakePondedContainer, ceoWaterRiverStream, ceoWaterIrrigation, ceoShadow, ceoUnknown, ceoBareGround, ceoBuilding, ceoImperviousSurface | integer \
+\
+seesAOIplot | concatenation of AOI number plus the plot number. AOI values are the hundredth and thousandth place, while the plot number ranges from 01 to 36. E.g. 201 is AOI=2 and plot_number=01\
+AOI_NUM	| 3km Area of Interest number. There are 49 areas of interest. | integer \
+ceoPLOT_NUM |  plot number ranges from 01 to 36 within each AOI. Refer to field seesAOIplot for a concatenation of AOI plus ceoPLOT_NUM | integer	\
+ceoTREES_CANOPYCOVER | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoBUSH_SCRUB	| label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float \
+ceoGRASS | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoCultivatedVeg | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoWaterTreatedPonded | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float \
+ceoWaterLakePondedContainer	\
+ceoWaterRiverStream | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoWaterIrrigation |label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoShadow | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoUnknown | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoBareGround | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoBuilding | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float	\
+ceoImperviousSurface | label for aerial image interpretation. Value in this field is percentage of the SAMPLE_POINTS that are labeled by this value. | float\
+\
